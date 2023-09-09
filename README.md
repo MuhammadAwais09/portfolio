@@ -23,7 +23,9 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/yourusername/portfolio-website.git
 2. Install dependencies:
+ ```bash
 cd portfolio-website
+ ```bash
 npm install
 3. Set up Sanity CMS:
 
@@ -32,4 +34,5 @@ Set up a new Sanity project and configure your schema and content.
 Update sanity.json and .env.development with your Sanity project ID and dataset name.
 
 4. Start the development server:
+ ```bash
 npm start
